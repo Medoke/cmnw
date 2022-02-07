@@ -1,8 +1,8 @@
+import { Avatar, TableCell, TableRow } from '@material-ui/core';
+import humanizeString from 'humanize-string';
 import React, { FC, Fragment } from 'react';
 import { itemDetailsTable } from '../../types/components';
-import { Avatar, TableCell, TableRow } from '@material-ui/core';
 import { ValuationTypes } from '../../types/enums';
-import humanizeString from 'humanize-string';
 import Link from '../Link';
 
 const ItemDetailsTable: FC<itemDetailsTable> = ({ type, details, connected_realm_id }) => {

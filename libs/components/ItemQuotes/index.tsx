@@ -1,10 +1,9 @@
-import React, { FC, Fragment } from 'react';
-import { itemQuery } from '../../types/components';
-import useSWR from 'swr';
-import MUIDataTable from 'mui-datatables';
-import { domain } from '../../constants';
-import { quotesResponse } from '../../types/components';
 import { LinearProgress, makeStyles } from '@material-ui/core';
+import MUIDataTable from 'mui-datatables';
+import React, { FC, Fragment } from 'react';
+import useSWR from 'swr';
+import { domain } from '../../constants';
+import { itemQuery, quotesResponse } from '../../types/components';
 
 const useStyles = makeStyles(theme => ({
   root: {

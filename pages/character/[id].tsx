@@ -1,14 +1,13 @@
 import { Container, Grid, makeStyles, Paper } from '@material-ui/core';
 import React from 'react';
-import { CHARACTER_PAGE } from '../../libs/constants';
-import { characterPortrait } from '../../libs/utils';
-import MetaHead from '../../libs/components/MetaHead';
 import CharacterButtons from '../../libs/components/CharacterButtons';
 import CharacterProfile from '../../libs/components/CharacterProfile';
-import { characterResponse, logResponse } from '../../libs/types/components';
-import { domain } from '../../libs/constants';
-import { LogTable } from '../../libs/components/LogTable';
 import CharacterTitle from '../../libs/components/CharacterTitle';
+import { LogTable } from '../../libs/components/LogTable';
+import MetaHead from '../../libs/components/MetaHead';
+import { CHARACTER_PAGE, domain } from '../../libs/constants';
+import { characterResponse, logResponse } from '../../libs/types/components';
+import { characterPortrait } from '../../libs/utils';
 
 const useStyles = makeStyles(theme => ({
   main: {

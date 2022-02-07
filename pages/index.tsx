@@ -1,11 +1,9 @@
 import { Container, makeStyles } from '@material-ui/core';
 import React from 'react';
 import '../i18n';
-import { initReactI18next } from 'react-i18next';
-import { useTranslation } from 'react-i18next';
 import MetaHead from '../libs/components/MetaHead';
-import { INDEX_PAGE } from '../libs/constants';
 import { SearchForm } from '../libs/components/SearchForm';
+import { INDEX_PAGE } from '../libs/constants';
 
 const useStyles = makeStyles(() => ({
   main: {

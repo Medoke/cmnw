@@ -1,8 +1,8 @@
+import { Divider, makeStyles, Typography } from '@material-ui/core';
 import React, { FC, Fragment } from 'react';
 import { characterTitle } from '../../types/components';
-import Link from '../Link';
-import { Divider, makeStyles, Typography } from '@material-ui/core';
 import { generateFactionBackground } from '../../utils';
+import Link from '../Link';
 
 const useStyles = makeStyles((theme) => ({
   root: {

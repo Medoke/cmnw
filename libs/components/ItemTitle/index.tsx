@@ -1,5 +1,5 @@
-import React, { FC, Fragment } from 'react';
 import { Avatar, Box, Divider, makeStyles, Typography } from '@material-ui/core';
+import React, { FC, Fragment } from 'react';
 import { itemTitle } from '../../types/components';
 import { generateItemBackground } from '../../utils';
 

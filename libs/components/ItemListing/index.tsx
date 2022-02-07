@@ -1,8 +1,8 @@
-import React, { FC, Fragment } from 'react';
+import { LinearProgress, makeStyles } from '@material-ui/core';
 import MUIDataTable from 'mui-datatables';
+import React, { FC, Fragment } from 'react';
 import useSWR from 'swr';
 import { domain } from '../../constants';
-import { LinearProgress, makeStyles } from '@material-ui/core';
 import { AuctionsResponse, itemQuery } from '../../types/components';
 import Link from '../Link';
 

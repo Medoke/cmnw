@@ -1,17 +1,17 @@
-import { object, string, array } from 'yup';
-import Router, { useRouter } from 'next/router'
+import { Button, Grid, makeStyles, MenuItem } from '@material-ui/core';
 import MuiTextField from '@material-ui/core/TextField';
+import ArrowForwardOutlinedIcon from '@material-ui/icons/ArrowForwardOutlined';
 import { Field, Form, Formik } from 'formik';
 import { TextField } from 'formik-material-ui';
 import { Autocomplete } from 'formik-material-ui-lab';
+import Router, { useRouter } from 'next/router';
 import React, { FC } from 'react';
-import { Button, Grid, makeStyles, MenuItem } from '@material-ui/core';
-import { COMMANDS, REALMS, HASH } from '../../constants';
-import AtSign from '../AtSign/AtSign';
-import ArrowForwardOutlinedIcon from '@material-ui/icons/ArrowForwardOutlined';
+import { array, object, string } from 'yup';
+import { COMMANDS, HASH, REALMS } from '../../constants';
 import { initialValuesSearch } from '../../types/components';
 import { Commands, HashType } from '../../types/enums';
 import { submitSearchForm } from '../../utils';
+import AtSign from '../AtSign/AtSign';
 
 const useStyles = makeStyles(() => ({
   item: {

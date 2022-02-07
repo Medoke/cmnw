@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
-import { metaHead } from '../../types/components';
 import { domain } from '../../constants';
+import { metaHead } from '../../types/components';
 
 const MetaHead: React.FC<metaHead> = ({ title, description, image, wowhead = false }) => {
   return (

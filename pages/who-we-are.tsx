@@ -1,11 +1,10 @@
-import React from 'react';
-import '../i18n';
-import { initReactI18next } from 'react-i18next';
-import { useTranslation } from 'react-i18next';
-import MetaHead from '../libs/components/MetaHead';
-import { WHO_WE_ARE, CONTRIBUTORS } from '../libs/constants';
 import { Container, Divider, Grid, makeStyles, Typography } from '@material-ui/core';
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import '../i18n';
 import ContributionStar from '../libs/components/ContributionStar';
+import MetaHead from '../libs/components/MetaHead';
+import { CONTRIBUTORS, WHO_WE_ARE } from '../libs/constants';
 
 const useStyles = makeStyles(theme => ({
   main: {

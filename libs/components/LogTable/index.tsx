@@ -1,7 +1,7 @@
-import React, { FC, Fragment } from 'react';
-import MUIDataTable from "mui-datatables";
-import { logTable } from '../../types/components';
 import { makeStyles } from '@material-ui/core';
+import MUIDataTable from "mui-datatables";
+import React, { FC, Fragment } from 'react';
+import { logTable } from '../../types/components';
 
 const useStyles = makeStyles((theme) => ({
   root: {

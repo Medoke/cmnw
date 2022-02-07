@@ -1,6 +1,6 @@
+import { Divider, makeStyles, Popover, Typography } from '@material-ui/core';
 import React, { FC, Fragment, useState } from 'react';
 import { hashTitle } from '../../types/components/hashTitle';
-import { Divider, makeStyles, Popover, Typography } from '@material-ui/core';
 import { generateFactionBackground } from '../../utils';
 
 const useStyles = makeStyles((theme) => ({

@@ -1,13 +1,13 @@
-import { domain } from '../../libs/constants';
 import { Container, Divider, Grid, makeStyles } from '@material-ui/core';
 import React from 'react';
-import MetaHead from '../../libs/components/MetaHead';
-import { generateItemTitle } from '../../libs/utils';
-import ItemTitle from '../../libs/components/ItemTitle';
 import ClusterChart from '../../libs/components/ClusterChart';
-import ItemQuotes from '../../libs/components/ItemQuotes';
 import ItemListing from '../../libs/components/ItemListing';
+import ItemQuotes from '../../libs/components/ItemQuotes';
+import ItemTitle from '../../libs/components/ItemTitle';
 import ItemValuations from '../../libs/components/ItemValuations';
+import MetaHead from '../../libs/components/MetaHead';
+import { domain } from '../../libs/constants';
+import { generateItemTitle } from '../../libs/utils';
 
 const useStyles = makeStyles(theme => ({
   main: {

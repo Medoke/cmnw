@@ -1,6 +1,6 @@
+import { Divider, makeStyles, Typography } from '@material-ui/core';
 import React, { FC, Fragment } from 'react';
 import { guildTitle } from '../../types/components';
-import { Divider, makeStyles, Typography } from '@material-ui/core';
 import { generateFactionBackground } from '../../utils';
 
 const useStyles = makeStyles((theme) => ({

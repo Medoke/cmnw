@@ -1,7 +1,7 @@
-import React, { FC } from 'react';
-import { contributionStar } from '../../types/components';
 import { Card, CardContent, makeStyles, Typography } from '@material-ui/core';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
+import React, { FC } from 'react';
+import { contributionStar } from '../../types/components';
 import Link from '../Link';
 
 const useStyles = makeStyles(theme => ({

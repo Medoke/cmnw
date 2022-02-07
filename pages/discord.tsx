@@ -1,8 +1,7 @@
+import { Button, Container, Grid, makeStyles, Typography } from '@material-ui/core';
 import React from 'react';
-import { initReactI18next } from 'react-i18next';
 import { useTranslation } from 'react-i18next';
 import MetaHead from '../libs/components/MetaHead';
-import { Button, Container, Grid, makeStyles, Typography } from '@material-ui/core';
 import { DISCORD } from '../libs/constants';
 
 const useStyles = makeStyles(() => ({

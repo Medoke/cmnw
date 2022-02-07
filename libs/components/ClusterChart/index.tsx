@@ -1,13 +1,13 @@
-import React, { FC, Fragment } from 'react';
-import useSWR from 'swr';
+import { LinearProgress, makeStyles } from '@material-ui/core';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 import HighchartsExporting from 'highcharts/modules/exporting';
 import Heatmap from 'highcharts/modules/heatmap';
-import { itemQuery } from '../../types/components';
-import { LinearProgress, makeStyles } from '@material-ui/core';
-import { chartResponse } from '../../types/components/chartResponse';
+import React, { FC, Fragment } from 'react';
+import useSWR from 'swr';
 import { domain } from '../../constants';
+import { itemQuery } from '../../types/components';
+import { chartResponse } from '../../types/components/chartResponse';
 
 if (typeof Highcharts === 'object') {
   Heatmap(Highcharts);

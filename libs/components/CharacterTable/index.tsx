@@ -1,9 +1,11 @@
-import React, { FC, Fragment } from 'react';
-import MUIDataTable from 'mui-datatables';
-import { characterTable } from '../../types/components';
-import Link from '../Link';
 import { makeStyles } from '@material-ui/core';
 import dayjs from 'dayjs';
+import MUIDataTable from 'mui-datatables';
+import React, { FC, Fragment } from 'react';
+import { characterTable } from '../../types/components';
+import Link from '../Link';
+
+
 
 const useStyles = makeStyles((theme) => ({
   root: {

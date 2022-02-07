@@ -1,11 +1,9 @@
-import React from 'react';
-import '../i18n';
-import { initReactI18next } from 'react-i18next';
-import { useTranslation } from 'react-i18next';
-import Image from 'next/image'
-import MetaHead from '../libs/components/MetaHead';
 import { Container, Grid, makeStyles, Typography } from '@material-ui/core';
-import { func } from 'prop-types';
+import Image from 'next/image';
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import '../i18n';
+import MetaHead from '../libs/components/MetaHead';
 
 const useStyles = makeStyles(() => ({
   main: {
